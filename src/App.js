@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import { useState } from "react";
 
 function App() {
+
+  const [menuItems] = useState(["About Me","Portfolio","Contact","Resume"]);
+
+  const [currentPage, setPage] = useState(menuItems[0]);
+
+  function renderPage(page){
+    switch(page){
+      case menuItems[0]:
+        return <About/>;
+
+      case menuItems[1]:
+        return <div>Portfolio</div>;
+
+      case menuItems[2]:
+        return <Contact/>;
+
+      case menuItems[3]:
+        return <div>Resume</div>;
+
+      default:
+        return <About/>;
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='flex-column justify-flex-start'>
+      <Header
+        currentPage={currentPage}
+        setPage={setPage}
+        menuItems={menuItems}
+      />
+        <main className='container'>
+            {renderPage(currentPage)}
+        </main>
+      <Footer/>
     </div>
   );
+
 }
 
 export default App;
