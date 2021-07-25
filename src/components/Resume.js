@@ -12,8 +12,7 @@ function Resume(){
                     <li>HTML</li>
                     <li>Javascript</li>
                 </ul>
-            </div>
-            <div className="my-2">
+                
                 <h3>Back-End Skills</h3>
                 <ul>
                     <li>Node Packages</li>
@@ -24,26 +23,24 @@ function Resume(){
                     <li>Sequelize</li>
                     <li>Mongoose</li>
                 </ul>
-            </div>
-            <div className="my-2">
+
                 <h3>Education</h3>
                 <ul>
                     <li>UW Online Extended Campus Full Stack Bootcamp</li>
                     <li>UW Milwaukee, Washington County: Communications</li>
                     <li>Intern at Skygen <i>formerly WonderBox Technolgies</i> : IT Department</li>
                 </ul>
-            </div>
-            <div className="my-2">
+
                 <h3>Employment</h3>
                 <ul>
-                    <li className="pb-2">Out & Out Eatery and Catering, 2015-present</li>
+                    <li className="pb-1">Out & Out Eatery and Catering, 2015-present</li>
                     <ul>
                         <li>Chef</li>
                         <li>Shift Supervisor</li>
                         <li>ServSafe Certified Manager</li>
                         <li>In House Tech Support</li>
                     </ul>
-                    <li className="pb-2">Duluth Trading Company</li>
+                    <li className="pb-1">Duluth Trading Company</li>
                     <ul>
                         <li>Sales Associate</li>
                     </ul>
