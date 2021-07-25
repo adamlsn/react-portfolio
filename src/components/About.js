@@ -2,7 +2,7 @@ import React from "react";
 
 function About(){
     return (
-        <section className="color-secondary d-flex flex-column align-items-center">
+        <section className="color-primary d-flex flex-column align-items-center">
             <h2 className="my-3">About Me</h2>
             <img src={require("../assets/large/portrait.jpg").default} className="my-3 resize" alt="Portrait"></img>
             <p className="my-3">

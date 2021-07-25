@@ -13,9 +13,9 @@ function Portfolio(){
     ])
 
     return (
-        <section className="d-flex flex-column align-items-center color-secondary p-4 mb-4">
+        <section className="d-flex flex-column align-items-center color-primary p-4 mb-4">
             <h2 className="my-3">Portfolio</h2>
-            <div className="container d-flex justify-content-evenly flex-wrap">
+            <div className="container d-flex justify-content-evenly flex-wrap color-dark">
                 {projects.map(project => (
                     <Project project={project}/>
                 ))}

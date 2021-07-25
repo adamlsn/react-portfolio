@@ -3,11 +3,11 @@
 }
 
 :root {
-  --primary: #a4243bff;
-  --secondary: #d8c99bff;
-  --tertiary: #d8973cff;
-  --light: #bd632fff;
-  --dark: #121619ff;
+  --primary: #17252A;
+  --secondary: #DEF2F1;
+  --tertiary: #3AAFA9;
+  --light: #FEFFFF;
+  --dark: #2B7A78;
 }
 
 a, a:visited{
@@ -16,7 +16,7 @@ a, a:visited{
 }
 
 a:hover{
-  color: var(--secondary)
+  color: var(--tertiary)
 }
 
 main{

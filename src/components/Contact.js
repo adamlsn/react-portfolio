@@ -34,7 +34,7 @@ function Contact(){
     }
 
     return(
-        <section className="d-flex flex-column align-items-center color-secondary p-4 mb-4">
+        <section className="d-flex flex-column align-items-center color-primary p-4 mb-4">
             <h2 className="mb-4">Contact Me</h2>
             <form className="w-50" onSubmit={handleSubmit}>
                 <div className="mb-4">

@@ -3,7 +3,7 @@ import pdf from '../assets/files/resume.pdf'
 function Resume(){
 
     return(
-        <section className="d-flex flex-column align-items-center color-dark my-4">
+        <section className="d-flex flex-column align-items-center color-primary my-4">
             <a href={pdf} download="Adam Olson's Resume.pdf" className="mb-4 color-primary"><h2><strong>Download My Full Resume</strong></h2></a>
             <div className="my-2">
                 <h3>Front-End Skills</h3>
