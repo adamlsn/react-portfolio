@@ -2,9 +2,9 @@ import React from "react";
 
 function About(){
     return (
-        <section className="color-dark d-flex flex-column align-items-center">
+        <section className="color-secondary d-flex flex-column align-items-center">
             <h2 className="my-3">About Me</h2>
-            <img src={require("../assets/large/portrait.jpg").default} className="my-3" alt="Portrait"></img>
+            <img src={require("../assets/large/portrait.jpg").default} className="my-3 resize" alt="Portrait"></img>
             <p className="my-3">
             Hi! My name is Adam Olson. I live in the greater Milwaukee area with my fianceé, two cats, and
                     a bunch of frying pans. Classically, I'm a chef. I've been working in the food industry for the past 6 years,

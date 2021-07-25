@@ -1,23 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
-  --maroon: #a4243bff;
+  --primary: #a4243bff;
   --secondary: #d8c99bff;
-  --l-orange: #d8973cff;
-  --d-orange: #bd632fff;
-  --black: #121619ff;
+  --tertiary: #d8973cff;
+  --light: #bd632fff;
+  --dark: #121619ff;
 }
 
 a, a:visited{
-  color: var(--d-orange);
+  color: var(--light);
   text-decoration: none;
+}
+
+a:hover{
+  color: var(--secondary)
+}
+
+main{
+  width: 100vh;
 }
 
 body{
   font-family: 'Dosis', sans-serif;
-  background-color: var(--d-orange);
+  background-color: var(--light);
 }
 
 .background-primary{
-  background-color: var(--maroon);
+  background-color: var(--primary);
 }
 
 .background-secondary{
@@ -25,19 +37,19 @@ body{
 }
 
 .background-tertiary{
-  background-color: var(--l-orange);
+  background-color: var(--tertiary);
 }
 
 .background-light{
-  background-color: var(--d-orange);
+  background-color: var(--light);
 }
 
 .background-dark{
-  background-color: var(--black);
+  background-color: var(--dark);
 }
 
 .color-primary{
-  color: var(--maroon);
+  color: var(--primary);
 }
 
 .color-secondary{
@@ -45,15 +57,19 @@ body{
 }
 
 .color-tertiary{
-  color: var(--l-orange);
+  color: var(--tertiary);
 }
 
 .color-light{
-  color: var(--d-orange);
+  color: var(--light);
 }
 
 .color-dark{
-  color: var(--black);
+  color: var(--dark);
+}
+
+ul{
+  list-style: none;
 }
 
 /* component styling */
@@ -66,15 +82,17 @@ footer{
   border-top: solid 6px var(--secondary);
 }
 
-.img-rounded{
-  border-radius: 50%;
+.resize {
+  border: 3px;
+  border-style: solid;
+  border-color: var(--secondary);
+  border-radius: 5px;
   width: 400px;
   height: auto;
-  border: solid 6px var(--black);
 }
 
 .navigation-active{
-  color: var(--d-orange);
+  color: var(--light);
   font-weight: bolder;
   font-size:large;
 }

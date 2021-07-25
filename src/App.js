@@ -2,6 +2,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Portfolio from "./components/Portfolio"
+import Resume from "./components/Resume"
 import { useState } from "react";
 
 function App() {
@@ -16,13 +18,13 @@ function App() {
         return <About/>;
 
       case menuItems[1]:
-        return <div>Portfolio</div>;
+        return <Portfolio/>;
 
       case menuItems[2]:
         return <Contact/>;
 
       case menuItems[3]:
-        return <div>Resume</div>;
+        return <Resume/>;
 
       default:
         return <About/>;
