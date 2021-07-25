@@ -4,7 +4,6 @@ function Resume(){
 
     return(
         <section className="d-flex flex-column align-items-center color-primary my-4">
-            <a href={pdf} download="Adam Olson's Resume.pdf" className="mb-4 color-primary"><h2><strong>Download My Full Resume</strong></h2></a>
             <div className="my-2">
                 <h3>Front-End Skills</h3>
                 <ul>
@@ -34,18 +33,19 @@ function Resume(){
                 <h3>Employment</h3>
                 <ul>
                     <li className="pb-1">Out & Out Eatery and Catering, 2015-present</li>
-                    <ul>
+                    <ul className="add-bullet">
                         <li>Chef</li>
                         <li>Shift Supervisor</li>
                         <li>ServSafe Certified Manager</li>
                         <li>In House Tech Support</li>
                     </ul>
                     <li className="pb-1">Duluth Trading Company</li>
-                    <ul>
+                    <ul className="add-bullet">
                         <li>Sales Associate</li>
                     </ul>
                 </ul>
             </div>
+            <a href={pdf} download="Adam Olson's Resume.pdf" className="mb-4 color-primary"><h2><strong>Download My Full Resume</strong></h2></a>
         </section>
     );
 }

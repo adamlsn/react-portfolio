@@ -5,7 +5,7 @@ function Navigation({currentPage, setPage, menuItems}){
 
                 {menuItems.map(item => (
                     <li className={`navigation-item ${currentPage === item && 'navigation-active'}`} key={item}>
-                        <span
+                        <span className="px-2"
                            onClick={()=>setPage(item)} 
                         >{item}</span>
                     </li>
