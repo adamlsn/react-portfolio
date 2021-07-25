@@ -4,7 +4,12 @@ import Project from "./Project";
 function Portfolio(){
 
     const [projects] = useState([
-        {name: "portrait", url: "https://review-crafts.herokuapp.com/", imgSrc: "../assets/large/portrait.jpg", github: "https://github.com/adamlsn"},
+        {name: "Craft Reviews", url: "https://review-crafts.herokuapp.com/", github: "https://github.com/mspierings96/Craft-Reviews"},
+        {name: "Songs & Spirits", url: "https://adamlsn.github.io/songsAndSpirits/", github: "https://github.com/adamlsn/songsAndSpirits"},
+        {name: "Ecommerce Backend", url: "https://github.com/adamlsn/ecommerce", github: "https://github.com/adamlsn/ecommerce"},
+        {name: "Employee Tracker", url: "https://github.com/adamlsn/employee-tracker", github: "https://github.com/adamlsn/employee-tracker"},
+        {name: "Note Taker", url: "https://guarded-shore-32271.herokuapp.com/", github: "https://github.com/adamlsn/note-taker"},
+        {name: "Password Generator", url: "https://adamlsn.github.io/password-gen/", github: "https://github.com/adamlsn/password-gen"}
     ])
 
     return (
