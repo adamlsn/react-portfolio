@@ -13,6 +13,11 @@ function Footer(){
                     <i src="../assets/small/linkedin.svg" class="fab fa-linkedin"></i>
                 </a>
             </h2>
+            <h2>
+                <a className="svg-img" href="https://www.instagram.com/adam_lsn/" target="_blank" rel="noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </h2>
         </footer>
     )
 }
