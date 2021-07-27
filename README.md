@@ -26,11 +26,11 @@
 
   ## Contributing
   
-  No contributors at this time
+  No contributors at this time.
 
   ## Tests
   
-  No collaborators at this time
+  No collaborators at this time.
 
   ## Questions
   
